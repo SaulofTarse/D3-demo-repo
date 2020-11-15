@@ -1,7 +1,9 @@
-body{
+/*body{
   background-color: yellow;
 
 }
+/*/
+
 .square{
   background-color: black;
   color: white;
@@ -11,11 +13,14 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
+  /*
   animation-name: bounce;
   animation-duration: 3s;
   animation-iteration-count: 6;
-  
+  /*/
 }
+
+
 @keyframes bounce {
 0% {
   transform: scale(1);
@@ -38,3 +43,47 @@ body{
     top: 0;
     }
 }
+.crane{
+  min-height: 98vh;
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url('images/wolf_1.jpg') top center no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  padding: 2%;
+}
+.ass{
+  min-height: 98vh;
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url('images/ass_1.jpg') top center no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  padding: 2%;
+}
+
+h2{
+    background-color: green;
+
+}
+.crane p{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.ass p{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*
+  display: flex;
+flex-wrap:wrap;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
