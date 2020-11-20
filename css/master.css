@@ -54,7 +54,7 @@
   background: url('images/wolf_1.jpg') top center no-repeat;
   background-size:contain;
   background-attachment: fixed;
-  padding: 2%;
+  border-bottom: 5px solid white;
 }
 .ass{
   min-height: 98vh;
@@ -67,19 +67,26 @@
   background: url('images/ass_1.jpg') top center no-repeat;
   background-size:contain;
   background-attachment: fixed;
-  padding: 2%;
+  border-top: 5px solid white;
 }
 
 h2{
-    background-color: green;
+      background-color: rgba(225, 225, 225, 1);
+      border-bottom: 1em solid rgba(225, 225, 225, 1);
+      border-top: 1em solid rgba(225, 225, 225, 1);
+      border-left: 2em solid rgba(225, 225, 225, 1);
+      border-right: 2em solid rgba(225, 225, 225, 1);
+      border-radius: 10%;
 
 }
-.crane p{
-  background-color: rgba(255, 255, 255, 0.5);
+p{
+  background-color: rgba(255, 255, 255, 0.75);
+  border-left: black solid;
+  border-right: black solid;
+  padding:2em;
+  border-spacing: inherit;
 }
-.ass p{
-  background-color: rgba(255, 255, 255, 0.5);
-}
+
 /*
   display: flex;
 flex-wrap:wrap;
