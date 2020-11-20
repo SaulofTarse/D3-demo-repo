@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Roboto:wght@100;500&family=Sirin+Stencil&display=swap');
+
+h2{
+    font-size: 1.5em;
+    font-family: 'Cormorant Garamond', serif;
+}
+p{
+  font-size: 0.75em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sirin Stencil', cursive;
+*/
